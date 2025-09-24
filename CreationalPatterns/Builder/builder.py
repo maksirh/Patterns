@@ -32,7 +32,6 @@ class PizzaBuilder(ABC):
         return self.pizza
 
 
-# --- Конкретні Builder-и ---
 class MargheritaBuilder(PizzaBuilder):
     def add_dough(self):
         self.pizza.add_part("thin dough")
